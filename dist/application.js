@@ -10964,7 +10964,7 @@ PIXI.DisplayObjectContainer.prototype._renderCanvas = function(renderSession)
  * @param texture {Texture} The texture for this sprite
  *
  * A sprite can be created directly from an image like this :
- * var sprite = new PIXI.Sprite.fromImage('assets/image.png');
+ * var sprite = new PIXI.Sprite.fromImage('dist/assets/image.png');
  * yourStage.addChild(sprite);
  * then obviously don't forget to add it to the stage you have already created
  */
@@ -29002,29 +29002,29 @@ Object.defineProperty(PIXI.RGBSplitFilter.prototype, 'blue', {
       };
       Spin.loader.load();
       Spin.Assets = {};
-      Spin.Assets.introBackground = PIXI.Texture.fromImage('assets/intro_background.png');
-      Spin.Assets.introCenterArrows = PIXI.Texture.fromImage('assets/intro_center_arrows.png');
-      Spin.Assets.introOuterArrows = PIXI.Texture.fromImage('assets/intro_outer_arrows.png');
-      Spin.Assets.introPointer = PIXI.Texture.fromImage('assets/intro_pointer.png');
-      Spin.Assets.introQuantum = PIXI.Texture.fromImage('assets/intro_quantum.png');
-      Spin.Assets.introSpin = PIXI.Texture.fromImage('assets/intro_spin.png');
-      Spin.Assets.quanta = PIXI.Texture.fromImage('assets/quanta.png');
-      Spin.Assets.achievement = PIXI.Texture.fromImage('assets/achievement.png');
-      Spin.Assets.starfield = PIXI.Texture.fromImage('assets/starfield.png');
-      Spin.Assets.collision = PIXI.Texture.fromImage('assets/collision.png');
-      Spin.Assets.annihilated = PIXI.Texture.fromImage('assets/annihilated.png');
-      Spin.Assets.wasted = PIXI.Texture.fromImage('assets/wasted.png');
-      Spin.Assets.distanceBackground = PIXI.Texture.fromImage('assets/distance.png');
-      Spin.Assets.distanceMark = PIXI.Texture.fromImage('assets/mark.png');
-      Spin.Assets.pointer = PIXI.Texture.fromImage('assets/pointer.png');
-      Spin.Assets.pointerHD = PIXI.Texture.fromImage('assets/pointer_HD.png');
-      Spin.Assets.enemyPointer = PIXI.Texture.fromImage('assets/enemy_pointer.png');
-      Spin.Assets.enemyPointerHD = PIXI.Texture.fromImage('assets/enemy_pointer_HD.png');
-      Spin.Assets.corner = PIXI.Texture.fromImage('assets/corner.png');
-      Spin.Assets.spark = PIXI.Texture.fromImage('assets/spark.png');
-      Spin.Assets.enemySpark = PIXI.Texture.fromImage('assets/enemy_spark.png');
-      Spin.Assets.hit = PIXI.Texture.fromImage('assets/hit.png');
-      Spin.Assets.dissolveSpriteSheet = PIXI.Texture.fromImage('assets/dissolve.png');
+      Spin.Assets.introBackground = PIXI.Texture.fromImage('dist/assets/intro_background.png');
+      Spin.Assets.introCenterArrows = PIXI.Texture.fromImage('dist/assets/intro_center_arrows.png');
+      Spin.Assets.introOuterArrows = PIXI.Texture.fromImage('dist/assets/intro_outer_arrows.png');
+      Spin.Assets.introPointer = PIXI.Texture.fromImage('dist/assets/intro_pointer.png');
+      Spin.Assets.introQuantum = PIXI.Texture.fromImage('dist/assets/intro_quantum.png');
+      Spin.Assets.introSpin = PIXI.Texture.fromImage('dist/assets/intro_spin.png');
+      Spin.Assets.quanta = PIXI.Texture.fromImage('dist/assets/quanta.png');
+      Spin.Assets.achievement = PIXI.Texture.fromImage('dist/assets/achievement.png');
+      Spin.Assets.starfield = PIXI.Texture.fromImage('dist/assets/starfield.png');
+      Spin.Assets.collision = PIXI.Texture.fromImage('dist/assets/collision.png');
+      Spin.Assets.annihilated = PIXI.Texture.fromImage('dist/assets/annihilated.png');
+      Spin.Assets.wasted = PIXI.Texture.fromImage('dist/assets/wasted.png');
+      Spin.Assets.distanceBackground = PIXI.Texture.fromImage('dist/assets/distance.png');
+      Spin.Assets.distanceMark = PIXI.Texture.fromImage('dist/assets/mark.png');
+      Spin.Assets.pointer = PIXI.Texture.fromImage('dist/assets/pointer.png');
+      Spin.Assets.pointerHD = PIXI.Texture.fromImage('dist/assets/pointer_HD.png');
+      Spin.Assets.enemyPointer = PIXI.Texture.fromImage('dist/assets/enemy_pointer.png');
+      Spin.Assets.enemyPointerHD = PIXI.Texture.fromImage('dist/assets/enemy_pointer_HD.png');
+      Spin.Assets.corner = PIXI.Texture.fromImage('dist/assets/corner.png');
+      Spin.Assets.spark = PIXI.Texture.fromImage('dist/assets/spark.png');
+      Spin.Assets.enemySpark = PIXI.Texture.fromImage('dist/assets/enemy_spark.png');
+      Spin.Assets.hit = PIXI.Texture.fromImage('dist/assets/hit.png');
+      Spin.Assets.dissolveSpriteSheet = PIXI.Texture.fromImage('dist/assets/dissolve.png');
       Spin.Assets.dissolveFrames = [];
       for (i = j = 0; j < 32; i = ++j) {
         Spin.Assets.dissolveFrames.push(new PIXI.Texture(Spin.Assets.dissolveSpriteSheet, {
@@ -29034,7 +29034,7 @@ Object.defineProperty(PIXI.RGBSplitFilter.prototype, 'blue', {
           height: 64
         }));
       }
-      Spin.Assets.enemyDissolveSpriteSheet = PIXI.Texture.fromImage('assets/enemy_dissolve.png');
+      Spin.Assets.enemyDissolveSpriteSheet = PIXI.Texture.fromImage('dist/assets/enemy_dissolve.png');
       Spin.Assets.enemyDissolveFrames = [];
       for (i = k = 0; k < 32; i = ++k) {
         Spin.Assets.enemyDissolveFrames.push(new PIXI.Texture(Spin.Assets.enemyDissolveSpriteSheet, {
@@ -29044,7 +29044,7 @@ Object.defineProperty(PIXI.RGBSplitFilter.prototype, 'blue', {
           height: 64
         }));
       }
-      Spin.Assets.enemyDissolveHDSpriteSheet = PIXI.Texture.fromImage('assets/enemy_dissolve_HD.png');
+      Spin.Assets.enemyDissolveHDSpriteSheet = PIXI.Texture.fromImage('dist/assets/enemy_dissolve_HD.png');
       Spin.Assets.enemyDissolveHDFrames = [];
       for (i = l = 0; l < 32; i = ++l) {
         Spin.Assets.enemyDissolveHDFrames.push(new PIXI.Texture(Spin.Assets.enemyDissolveHDSpriteSheet, {
@@ -29054,7 +29054,7 @@ Object.defineProperty(PIXI.RGBSplitFilter.prototype, 'blue', {
           height: 128
         }));
       }
-      Spin.Assets.burnSpriteSheet = PIXI.Texture.fromImage('assets/burn.png');
+      Spin.Assets.burnSpriteSheet = PIXI.Texture.fromImage('dist/assets/burn.png');
       Spin.Assets.burnFrames = [];
       for (i = m = 0; m < 64; i = ++m) {
         Spin.Assets.burnFrames.push(new PIXI.Texture(Spin.Assets.burnSpriteSheet, {
@@ -29064,7 +29064,7 @@ Object.defineProperty(PIXI.RGBSplitFilter.prototype, 'blue', {
           height: 32
         }));
       }
-      Spin.Assets.buildSpriteSheet = PIXI.Texture.fromImage('assets/build.png');
+      Spin.Assets.buildSpriteSheet = PIXI.Texture.fromImage('dist/assets/build.png');
       Spin.Assets.buildFrames = [];
       results = [];
       for (i = n = 0; n < 64; i = ++n) {
