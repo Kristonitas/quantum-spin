@@ -1,9 +1,0 @@
-# Setting the source folder for github pages to be the dist folder
-
-source: "dist"
-destination:    ./_gh_pages
-host:           "localhost"
-port:           9001
-baseurl:        ""
-url:            "https://kristonitas.github.io/quantum-spin/"
-encoding:       UTF-8
