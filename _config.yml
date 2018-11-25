@@ -1,0 +1,3 @@
+# Setting the source folder for github pages to be the dist folder
+
+source: "dist"
