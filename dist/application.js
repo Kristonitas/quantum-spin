@@ -28994,7 +28994,7 @@ Object.defineProperty(PIXI.RGBSplitFilter.prototype, 'blue', {
     },
     preloadAssets: function() {
       var i, j, k, l, m, n, results;
-      Spin.loader = new PIXI.AssetLoader(["assets/fonts/helvetica_black.fnt", "assets/fonts/helvetica_white.fnt"]);
+      Spin.loader = new PIXI.AssetLoader(["dist/assets/fonts/helvetica_black.fnt", "dist/assets/fonts/helvetica_white.fnt"]);
       Spin.loader.onComplete = function() {
         Spin.createScenes();
         Spin.checkVersion();
